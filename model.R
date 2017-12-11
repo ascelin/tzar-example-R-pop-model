@@ -57,6 +57,7 @@ var.traj <- apply( pop.traj, 2, var)
        #-------------------------
 
 cat( '\nRun id =', parameters$run.id )
+cat( '\n#######################################Run id =', parameters$run.id )
 cat( "\noutput file is", parameters$output.plot, '\n' )
 cat( "\noutput R dump file is", parameters$output.dump, '\n' )
 
