@@ -7,7 +7,8 @@ addons:
     packages:
       - oracle-java8-installer  # https://github.com/travis-ci/travis-ci/issues/3259
 
-# need to do all this to get R version 3.3 (otherwise defaults to R 3.0 where rjson is not available)
+# Install the latest R base - version 3.4
+# otherwise defaults to R 3.0 where rjson is not available
 before_install:
   - sudo sh -c 'echo "deb https://cloud.r-project.org/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'
   - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
