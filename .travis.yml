@@ -1,8 +1,7 @@
 language: java
 
 jdk: oraclejdk8
-r: 3.3.0
-
+r: release # https://docs.travis-ci.com/user/languages/r/
 addons:
   apt:
     packages:
