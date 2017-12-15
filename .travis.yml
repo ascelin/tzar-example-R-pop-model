@@ -1,6 +1,7 @@
 language: java
 
 jdk: oraclejdk8
+r: 3.3.0
 
 addons:
   apt:
@@ -9,6 +10,6 @@ addons:
 
 install:
   - sudo apt-get install r-base # needed for Rscript
-  - sudo Rscript -e 'install.packages("rjson", repos = "http://cran.r-project.org")'
+  #- sudo Rscript -e 'install.packages("rjson", repos = "http://cran.r-project.org")'
 
 script: ./run.sh
