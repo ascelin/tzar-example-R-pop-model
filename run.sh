@@ -14,4 +14,4 @@ if [ ! -f $JAR ]; then
 fi
 
 # now run it
-java -jar $JAR execlocalruns https://github.com/ascelin/tzar-example-R-pop-model.git --tzarbasedir /tmp/tzar --repotype=GIT
+java -jar $JAR execlocalruns https://github.com/ascelin/tzar-example-R-pop-model.git --repotype=GIT
