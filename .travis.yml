@@ -9,6 +9,6 @@ addons:
 
 install:
   - sudo apt-get install r-base # needed for Rscript
-  - Rscript -e 'install.packages("rjson", repos = "http://cran.r-project.org")'
+  - sudo Rscript -e 'install.packages("rjson", repos = "http://cran.r-project.org")'
 
 script: ./run.sh
