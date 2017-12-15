@@ -8,6 +8,7 @@ addons:
       - oracle-java8-installer  # https://github.com/travis-ci/travis-ci/issues/3259
 
 install:
-  sudo apt-get install r-base # needed for Rscript
+  - sudo apt-get install r-base # needed for Rscript
+  - Rscript -e 'install.packages("rjson", repos = "http://cran.r-project.org")'
 
 script: ./run.sh
