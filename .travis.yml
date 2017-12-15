@@ -7,4 +7,4 @@ addons:
     packages:
       - oracle-java8-installer  # https://github.com/travis-ci/travis-ci/issues/3259
 
-script: TZAR_HOME=. bash -c "./run.sh"
+script: ./run.sh
