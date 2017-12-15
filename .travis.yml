@@ -1,2 +1,10 @@
-language: java
+language: R
+
+jdk: oraclejdk8
+
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer  # https://github.com/travis-ci/travis-ci/issues/3259
+
 script: bash run.sh
