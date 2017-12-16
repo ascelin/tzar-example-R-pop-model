@@ -2,7 +2,7 @@
 # Author: Ascelin Gordon ascelin.gordon@rmit.edu.au
 
 
-# Define a matrix to store the pop trajectory outputs 
+# Define a matrix to store the pop trajectory outputs
 pop.traj <- matrix( ncol=parameters$no.timesteps+1, nrow=parameters$reps )
 pop.traj[,1] <- parameters$init.pop.size
 
