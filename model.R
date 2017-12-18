@@ -1,6 +1,7 @@
 # Simple population model tzar project 
 # Author: Ascelin Gordon ascelin.gordon@rmit.edu.au
 
+cat('################################ new run ##############################\n')
 
 # Define a matrix to store the pop trajectory outputs
 pop.traj <- matrix( ncol=parameters$no.timesteps+1, nrow=parameters$reps )
